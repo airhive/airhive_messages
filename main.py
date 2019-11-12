@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+#CODICE INVIA NOTIFICHE DI AIRHIVE
+
 from collections import namedtuple
 from datetime import datetime
 import logging
