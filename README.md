@@ -20,3 +20,7 @@ Furthermore our app and our website will show users which is the current level o
 
 ![alt text](https://www.airhive.it/assets/img/Air%20Hive%20Presentazione/Air%20Hive%20Presentazione.013.jpeg)
 ![alt text](https://www.airhive.it/assets/img/Air%20Hive%20Presentazione/Air%20Hive%20Presentazione.018.jpeg)
+
+
+The code in this repo is part of our plan to build our vision for the future.
+It looks for users nearby our sensors and sends a warning in case of emergency.
