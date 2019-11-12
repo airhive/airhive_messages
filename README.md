@@ -1,4 +1,4 @@
-![alt text](https://www.airhive.it/assets/img/logo_hd.png)
+![alt text](https://www.airhive.it/assets/img/logo.svg)
 
 # AirHive
 What if we had all the air pollution data we need?
@@ -20,7 +20,3 @@ Furthermore our app and our website will show users which is the current level o
 
 ![alt text](https://www.airhive.it/assets/img/Air%20Hive%20Presentazione/Air%20Hive%20Presentazione.013.jpeg)
 ![alt text](https://www.airhive.it/assets/img/Air%20Hive%20Presentazione/Air%20Hive%20Presentazione.018.jpeg)
-
-This is the first sketch (designed as fast as we could during the 48 hours of the NASA Space Challenge) of the schematic of our devices.
-We plan to improve it drastically in the future.
-![alt text](https://www.airhive.it/assets/img/Schematic_Weatherbee_Sheet-1_20181021110410-1.png)
