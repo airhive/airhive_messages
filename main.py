@@ -138,7 +138,7 @@ def prep_log():
     # add the handlers to the logger
     logger.addHandler(fh)
     logger.addHandler(ch)
-    return logger df_store[(ora_adesso - df_store.ora_avviso) < tempo_tra_notifiche]
+    return logger
 
 def send_mess(registration_ids, message_title, message_body, location_sensori, lingua):
     """Invia notifica, vedi https://github.com/olucurious/PyFCM/blob/master/pyfcm/fcm.py"""
