@@ -46,7 +46,7 @@ def lingue(choosen_one_s, livello_pericolo):
         italiano = Traduzioni("Inquinamento pericoloso", "Rilevati livelli estremamenti alti di inquinamento nell'area, prestare particolare attenzione.")
         tedesco = Traduzioni("Gefährliche Verschmutzung", "Sehr hohe Schadstoffkonzentration, bitte besondere Aufmerksamkeit zu widmen.")
         francese = Traduzioni("Niveau de pollution dangereux", "Très haute concentration de polluants détectés, soyez particulièrement prudent.")
-        spagnolo = Traduzioni("Nivel de contaminación peligrosa", "Nivel extremadamente alto de contaminantes detectados, tenga especial cuidado".)
+        spagnolo = Traduzioni("Nivel de contaminación peligrosa", "Nivel extremadamente alto de contaminantes detectados, tenga especial cuidado.")
         altre_lingue = Traduzioni("Dangerous pollution level", "Extremely high level of pollutants detected, please be especially careful.")
     return utenti_lingua, [italiano, tedesco, francese, altre_lingue], lingue.append("EN")
 
