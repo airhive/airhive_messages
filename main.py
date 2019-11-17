@@ -27,7 +27,7 @@ def controlla_anomalie(df, media, dev_std, numero_deviazioni):
     """Calcolo i V-values"""
     # Accetta una sola colonna del df
     V_values = (df - media) / dev_std
-    return V_values > numero_deviazionio_numeric(df.lng)
+    return V_values > numero_deviazioni
 
 def lingue(choosen_one_s, livello_pericolo):
     """Seleziona le lingue, se non ci sono è inglese."""
