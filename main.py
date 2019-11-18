@@ -71,7 +71,7 @@ def lingue(choosen_one_s, livello_pericolo):
         francese = Traduzioni("Niveau de pollution dangereux", "Très haute concentration de polluants détectés, soyez particulièrement prudent.")
         spagnolo = Traduzioni("Nivel de contaminación peligrosa", "Nivel extremadamente alto de contaminantes detectados, tenga especial cuidado.")
         altre_lingue = Traduzioni("Dangerous pollution level", "Extremely high level of pollutants detected, please be especially careful.")
-    return utenti_lingua, [italiano, tedesco, francese, altre_lingue], lingue.append("EN")
+    return utenti_lingua, [italiano, tedesco, francese, spagnolo, altre_lingue], lingue.append("EN")
 
 def prep_log():
     """ Come visto in https://docs.python.org/3/howto/logging-cookbook.html """
