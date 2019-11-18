@@ -23,7 +23,11 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 push_service = FCMNotification(api_key="######")
 ora_adesso = datetime.now().hour
 
-controlla_anomalie = tools.controlla_anomalie
+def controlla_anomalie(df, media, dev_std, numero_deviazioni):
+    """Calcolo i V-values"""
+    # Accetta una sola colonna del df
+    V_values = (df - media) / dev_std
+    return V_values > numero_deviazioni
 
 def get_data():
     """Legge il database per prendere i dati dei sensori"""
