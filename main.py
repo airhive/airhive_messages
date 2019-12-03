@@ -17,8 +17,6 @@ from pyfcm import FCMNotification
 from scipy.spatial import cKDTree
 from sqlalchemy import create_engine
 
-import tools
-
 warnings.simplefilter(action='ignore', category=FutureWarning)
 push_service = FCMNotification(api_key="######")
 ora_adesso = datetime.now().hour
